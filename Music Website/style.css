@@ -1,0 +1,219 @@
+body {
+  
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    color: rgb(226, 218, 218);
+    line-height: 1.6;
+    background: linear-gradient(to right, #1a2980, #26d0ce);
+
+}
+
+/* NavBar And main page */
+.main {
+    background: linear-gradient(to right, #1a2980, #26d0ce);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+/* .container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+} */
+
+.navbar ul {
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:center;
+    
+    background: linear-gradient(to right, #1a2980, #26d0ce);}
+
+
+.navbar ul li a {
+    display: inline-block;
+    font-weight: bold;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(3, 46, 91);
+}
+
+
+
+.title {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.title h1 {
+    text-align: center;
+    margin-top: 10px;
+    justify-content: right;
+    font-size: 85px;
+    font-weight: 900 bolder;
+
+}
+
+.title h4 {
+    font-size: 50px;
+    margin: 0;
+    padding:2em;
+}
+
+.title p {
+    font-size: 25px;
+}
+/* Music page */
+.music_page {
+
+background: linear-gradient(to right, #e55d87, #5fc3e4);
+}
+.container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+}
+.music_page a{
+    text-decoration: none;
+    background-color: rgb(191, 78, 129);
+    color: rgb(228, 216, 216);
+    padding: 15px;
+}
+.music_page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    padding: 32px;
+}
+.music_page img {  
+    width: 400px;
+    display: inline;
+
+ }
+.music_page h3 {
+padding-top: 20px;  
+  font-size: 45px;
+}
+
+
+    
+.music_page p {
+    font-size: 1.5rem;
+    padding-top:15px
+}
+
+
+/* Video page */
+.video_page {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #dd5e89, #f7bb97);}
+
+
+
+
+.video_page h5{
+    font-size: 1.4rem;
+text-justify: newspaper;
+}
+.video_page p{
+    font-size: 1.2rem;
+
+}
+
+
+
+.video_page a {
+    background: rgba(208, 110, 208, 0.899);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.page {
+    height: 100vh;
+    text-align: center;
+    color: rgb(244, 232, 232);
+   background: center/cover;
+   background: linear-gradient(to right, #1a2980, #26d0ce);}
+
+.page h1{
+    float: left;
+    font-size: 45px;
+}
+.page p {
+    font-size: 1.5rem;    
+}
+.gift-cards{
+background-color:rgb(255, 255, 255); 
+color:black;  
+}
+.gift-cards{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+
+.gift-cards img {
+    width: 100%;
+
+}
+.gift-cards h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top:32px
+}
+.gift-cards p {
+    padding: 32px;
+}
+.gift-cards a{
+    text-decoration: none;
+    cursor: pointer;
+    color: brown;
+}
+#footer-page {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);}
+
+.footer {
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footer ul {
+list-style: none;
+font-weight: bold;
+font-size: 1rem;
+}
+.footer li a {
+    text-decoration: none ;
+    color:#a9afaf;
+    text-align: -webkit-match-parent;
+
+}
+.footer-bottom{
+    text-align: center;
+    padding: 10px ;
+    font-weight:bolder;
+    font-size: 22px;
+}
+
